@@ -1,4 +1,4 @@
-#include "../include/MeshConnectivity.h"
+#include "../include/libshell/MeshConnectivity.h"
 
 #include <vector>
 #include <map>

@@ -1,4 +1,4 @@
-#include "../include/ElasticShell.h"
+#include "../include/libshell/ElasticShell.h"
 #include <Eigen/Geometry>
 #include <Eigen/Dense>
 #include <iostream>
@@ -8,12 +8,12 @@
 #include <iostream>
 #include <vector>
 #include <map>
-#include "../include/MeshConnectivity.h"
-#include "../include/MaterialModel.h"
-#include "../include/RestState.h"
-#include "../include/MidedgeAngleSinFormulation.h"
-#include "../include/MidedgeAngleTanFormulation.h"
-#include "../include/MidedgeAverageFormulation.h"
+#include "../include/libshell/MeshConnectivity.h"
+#include "../include/libshell/MaterialModel.h"
+#include "../include/libshell/RestState.h"
+#include "../include/libshell/MidedgeAngleSinFormulation.h"
+#include "../include/libshell/MidedgeAngleTanFormulation.h"
+#include "../include/libshell/MidedgeAverageFormulation.h"
 
 namespace LibShell {
 

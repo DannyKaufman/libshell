@@ -1,7 +1,7 @@
-#include "../../include/MidedgeAngleSinFormulation.h"
+#include "../../include/libshell/MidedgeAngleSinFormulation.h"
 #include <Eigen/Geometry>
 #include "../GeometryDerivatives.h"
-#include "../../include/MeshConnectivity.h"
+#include "../../include/libshell/MeshConnectivity.h"
 #include <iostream>
 #include <random>
 #include <Eigen/Geometry>
