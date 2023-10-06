@@ -1,6 +1,6 @@
-#include "../../include/MidedgeAverageFormulation.h"
+#include "../../include/libshell/MidedgeAverageFormulation.h"
 #include "../GeometryDerivatives.h"
-#include "../../include/MeshConnectivity.h"
+#include "../../include/libshell/MeshConnectivity.h"
 #include <iostream>
 #include <random>
 

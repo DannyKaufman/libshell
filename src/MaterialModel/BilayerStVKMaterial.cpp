@@ -1,12 +1,12 @@
-#include "../../include/BilayerStVKMaterial.h"
-#include "../../include/MeshConnectivity.h"
+#include "../../include/libshell/BilayerStVKMaterial.h"
+#include "../../include/libshell/MeshConnectivity.h"
 #include <vector>
 #include "../GeometryDerivatives.h"
 #include <Eigen/Dense>
-#include "../../include/MidedgeAngleSinFormulation.h"
-#include "../../include/MidedgeAngleTanFormulation.h"
-#include "../../include/MidedgeAverageFormulation.h"
-#include "../../include/RestState.h"
+#include "../../include/libshell/MidedgeAngleSinFormulation.h"
+#include "../../include/libshell/MidedgeAngleTanFormulation.h"
+#include "../../include/libshell/MidedgeAverageFormulation.h"
+#include "../../include/libshell/RestState.h"
 #include <iostream>
 
 namespace LibShell {
