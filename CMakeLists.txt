@@ -5,7 +5,7 @@ project(libshell)
 file(GLOB LIBFILES include/libshell/*.h src/*.cpp src/SecondFundamentalForm/*.cpp src/MaterialModel/*.cpp)
 add_library(libshell SHARED ${LIBFILES})
 
-target_include_directories(libshell PUBLIC include/libshell)
+target_include_directories(libshell PUBLIC include)
 
 include(libigl)
 
